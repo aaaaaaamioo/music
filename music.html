@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #252525;
+            color: rgb(255, 255, 255);
+            font-family: Arial, sans-serif;
+        }
+
+        .player {
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 25px;
+        }
+
+        audio {
+            width: 280px;
+            max-width: 85vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="player">
+        <h2>🎵joonami</h2>
+
+        <audio controls autoplay>
+            <source src="song.mp3" type="audio/mpeg">
+            مرورگر شما از پخش آهنگ پشتیبانی نمی‌کند.
+        </audio>
+    </div>
+</body>
+</html>
